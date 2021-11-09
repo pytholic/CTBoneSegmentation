@@ -25,7 +25,7 @@ For now, to segment skull bone, we only focus on traditional methods. The reason
 I used the following main libraries.
 
 * Pydicom
-* Scikit Image
+* Scikit-Image
 * OpenCV
 
 We need `pydicom` to read the **DICOM** files. If your data is in **Nifti** (.nii) format you can use `nibabel` library, or you can also convert your data using **3D Slicer**.
