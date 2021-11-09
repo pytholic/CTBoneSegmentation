@@ -33,4 +33,4 @@ We need `pydicom` to read the **DICOM** files. If your data is in **Nifti** (.ni
 Note that you can use either `OpenCV` or `Skimage` for image processing or you can also combine operations from both libraries. Usually, one library is enough to accomplish a particular task. **OpenCV** is maybe a more common and go-to choice for many people. However, I found some more functions in **Scikit Image** and wanted to check them as well. It comes down to your choice in the end.
  
 ## Steps
-Steps are pretty straight forward as you can see in the `notebooks`. We just load the image and apply different operations like thresholding and morphology and in the end, we get extracted mask of our skull.
+Steps are pretty straight forward as you can see in the `notebooks`. We just load the image and apply different operations like `thresholding` and `morphology`. In the end, we get extracted mask of our skull.
