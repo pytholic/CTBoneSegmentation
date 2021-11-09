@@ -22,10 +22,10 @@ Deep learning-based methods require annotated datasets with `ground-truth` masks
 For now, to segment skull bone, we only focus on traditional methods. The reason for that is that bone intensity is usually very high compared to other parts of the image, so we can easily segment it using techniques like `thresholding` and other methods. However, we can still use deep learning for this task and make it fully automated. For now, that is in future goals and we will only use classical methods at the moment.
 
 ## Libraries
-I basically used followinf main libraries.
+I used the following main libraries.
 
 * Pydicom
 * Scikit Image
 * OpenCV
 
-We need `pydicom` to read the **DICOM** files. Since my data was in DICOM format, I used `pydicom`, but if your data is in `Nifti (.nii)` format you can use `nibabel` library.
+We need `pydicom` to read the **DICOM** files. If your data is in **Nifti** (.nii) format you can use `nibabel` library, or you can also convert your data using **3D Slicer**.
