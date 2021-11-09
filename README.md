@@ -1,4 +1,4 @@
-# CTBoneSegmentation
+# CT Bone Segmentation
 ## Description
 Segmenting `skull bone` in medical images (head CT scans of the patients). 
 
